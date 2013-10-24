@@ -12,6 +12,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Config/Config-AutoConf-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(Capture::Tiny)
 BuildRequires:	perl(ExtUtils::CBuilder)
 BuildRequires:	perl(Test::More)
 BuildArch:	noarch
