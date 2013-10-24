@@ -1,15 +1,15 @@
 %define upstream_name    Config-AutoConf
-%define upstream_version 0.16
+%define upstream_version 0.22
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	A module to implement some of AutoConf macros in pure perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Config/Config-AutoConf-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::CBuilder)
@@ -58,3 +58,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Mar 08 2010 cpan2dist 0.14-1mdv
 - initial mdv release, generated with cpan2dist
+
