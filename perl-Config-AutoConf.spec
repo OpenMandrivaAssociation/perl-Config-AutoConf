@@ -1,11 +1,12 @@
 %define upstream_name    Config-AutoConf
-%define upstream_version 0.27
+%define upstream_version 0.300
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A module to implement some of AutoConf macros in pure perl
+
 
 
 License:	GPL+ or Artistic
@@ -39,6 +40,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
 
 
