@@ -4,5 +4,6 @@ removed_sources:
   Config-AutoConf-0.25.tar.gz: 9ebdbfc0d7ce857172976655b3532c7141e49d97
   Config-AutoConf-0.27.tar.gz: 4be89e77e9e352a7997ee85800a088f39d9a5986
   Config-AutoConf-0.300.tar.gz: d89b076a347f62237cd9cfc4d5fb1ebe27650b4f
-sources:
   Config-AutoConf-0.303.tar.gz: 61f80736cd1d32bdf99c6dd6e1bf1a033687f17e
+sources:
+  Config-AutoConf-0.304.tar.gz: 7abd87348949e42c2d15f02ad038db0f9e43e681
