@@ -1,5 +1,5 @@
 %define upstream_name    Config-AutoConf
-%define upstream_version 0.304
+%define upstream_version 0.305
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -42,9 +42,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-
-
-
-
-
