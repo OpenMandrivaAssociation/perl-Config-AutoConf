@@ -1,9 +1,9 @@
 %define upstream_name    Config-AutoConf
-%define upstream_version 0.305
+%define upstream_version 0.320
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	A module to implement some of AutoConf macros in pure perl
 
@@ -13,8 +13,8 @@ Summary:	A module to implement some of AutoConf macros in pure perl
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/ambs/Config-AutoConf
+Source0:	https://cpan.metacpan.org/authors/id/A/AM/AMBS/Config-AutoConf-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
