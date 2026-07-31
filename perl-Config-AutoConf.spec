@@ -2,7 +2,7 @@
 %define upstream_version 0.320
 Name:		perl-%{upstream_name}
 Version:	0.320
-Release:	4
+Release:	5
 
 Summary:	A module to implement some of AutoConf macros in pure perl
 
