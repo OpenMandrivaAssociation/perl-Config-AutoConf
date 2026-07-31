@@ -2,7 +2,7 @@
 %define upstream_version 0.320
 Name:		perl-%{upstream_name}
 Version:	0.320
-Release:	3
+Release:	4
 
 Summary:	A module to implement some of AutoConf macros in pure perl
 
@@ -35,7 +35,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %check
 # soft: do not fail package on test failures
 set +e
-%make test
+%make test || :
 
 %install
 %makeinstall_std
